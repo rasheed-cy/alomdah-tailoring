@@ -1,0 +1,101 @@
+# =====================================================================
+# Git Ignore — Alomdah Tailoring
+# =====================================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+
+# ---- Node ----
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/.vite/
+
+# ---- PyInstaller ----
+desktop/build/
+desktop/dist/
+*.spec.bak
+
+# ---- Inno Setup ----
+installer/
+*.iss.bak
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Backups ----
+backups/
+*.dmp
+
+# ---- Environment / Secrets ----
+.env
+.env.local
+.env.*.local
+backend/.env
+*.env.example.real
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Temp ----
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---- Build artifacts ----
+build/
+dist/
+*.exe
+
+# ---- Database dumps ----
+*.sql.bak
+exports/
+
+# ---- Certificates ----
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# ---- Oracle ----
+Oracle/
+oracle/
+dbhome*/
+
+# ---- Large binaries ----
+*.zip
+*.7z
+*.rar
