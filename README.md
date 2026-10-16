@@ -70,7 +70,7 @@ alomdah-tailoring/
 
 ## المطوّر
 
-رشيد عبدالله ثابت صالح
+رشيد عبدالله ثابت صلاح
 - WhatsApp: 967771296378
 - GitHub: github.com/rasheed-cy
 - LinkedIn: linkedin.com/in/rasheed-abdullah-thabit-salah
